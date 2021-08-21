@@ -1,0 +1,11 @@
+function books(input) {
+
+    let pagesCount = Number(input[0]);
+    let pages = Number(input[1]);
+    let daysCount = Number(input[2]); 
+
+    let totalTime = pagesCount / pages;
+    let hoursForDay = totalTime / daysCount;
+
+    console.log(hoursForDay);
+}
